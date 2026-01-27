@@ -656,8 +656,8 @@
         <Option type="QString" value="" name="color"/>
         <Option type="QString" value="1/27/26 - Extract data from description, set the runtime date and populate the source field" name="component_description"/>
         <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="2072" name="component_pos_x"/>
-        <Option type="double" value="968.3333333333333" name="component_pos_y"/>
+        <Option type="double" value="940.3905936968908" name="component_pos_x"/>
+        <Option type="double" value="257.03599222852176" name="component_pos_y"/>
         <Option type="double" value="100" name="component_width"/>
         <Option type="bool" value="true" name="outputs_collapsed"/>
         <Option type="bool" value="true" name="parameters_collapsed"/>
