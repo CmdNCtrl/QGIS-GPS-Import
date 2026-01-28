@@ -13,7 +13,14 @@ The model is designed to be:
 
 ---
 
-## Model Location
+## Set Up
+1)  Set Project home `@project_home` to be the folder that contains your project file
+2) Install the following two plug ins:
+
+        Append Features to Layers
+
+        KML Tools
+
 This model is stored as a standalone Processing Model:
 
 
