@@ -8,10 +8,10 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_description" type="QString" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  "/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1626.6666666666665"/>
-        <Option name="component_pos_y" type="double" value="789.862950058072"/>
+        <Option name="component_pos_x" type="double" value="1144.1666666666665"/>
+        <Option name="component_pos_y" type="double" value="943.612950058072"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -36,7 +36,7 @@
         <Option name="SOURCE_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
         <Option name="SOURCE_LAYER" type="List">
@@ -49,7 +49,7 @@
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
         <Option name="TARGET_LAYER" type="List">
@@ -67,10 +67,10 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_description" type="QString" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  "/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="522.6666666666665"/>
-        <Option name="component_pos_y" type="double" value="124.66666666666663"/>
+        <Option name="component_pos_x" type="double" value="1401.4166666666665"/>
+        <Option name="component_pos_y" type="double" value="560.9166666666666"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -95,7 +95,7 @@
         <Option name="SOURCE_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
         <Option name="SOURCE_LAYER" type="List">
@@ -108,7 +108,7 @@
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
         <Option name="TARGET_LAYER" type="List">
@@ -196,8 +196,8 @@
         <Option name="color" type="QString" value=""/>
         <Option name="component_description" type="QString" value="This step isolates the (End) points so that we can join them with the lines and then use the end point descrption to update the Line description"/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="592.4763356562135"/>
-        <Option name="component_pos_y" type="double" value="75.97996515679438"/>
+        <Option name="component_pos_x" type="double" value="591.2263356562135"/>
+        <Option name="component_pos_y" type="double" value="89.72996515679438"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -235,10 +235,10 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_description" type="QString" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1"/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1338.5624274099882"/>
-        <Option name="component_pos_y" type="double" value="564.5296167247386"/>
+        <Option name="component_pos_x" type="double" value="637.3124274099882"/>
+        <Option name="component_pos_y" type="double" value="784.5296167247386"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -293,7 +293,7 @@
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;'/Users/jdruding/Documents/GIS/QGIS/Projects/GaiaGPS/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'"/>
+            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'"/>
             <Option name="source" type="int" value="3"/>
           </Option>
         </Option>
@@ -306,10 +306,10 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_description" type="QString" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1"/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="577.3333333333334"/>
-        <Option name="component_pos_y" type="double" value="115.33333333333326"/>
+        <Option name="component_pos_x" type="double" value="1107.3333333333335"/>
+        <Option name="component_pos_y" type="double" value="425.33333333333326"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -364,7 +364,7 @@
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;'/Users/jdruding/Documents/GIS/QGIS/Projects/GaiaGPS/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'"/>
+            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'"/>
             <Option name="source" type="int" value="3"/>
           </Option>
         </Option>
@@ -457,7 +457,7 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754"/>
+        <Option name="component_description" type="QString" value="1/27/26 - Create new layer with just the new features that need to be appended.  &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754"/>
         <Option name="component_height" type="double" value="60"/>
         <Option name="component_pos_x" type="double" value="908.6637726851344"/>
         <Option name="component_pos_y" type="double" value="855.891811957158"/>
@@ -536,10 +536,10 @@
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_description" type="QString" value="1/27/26 - Create new layer with just the new features that need to be appended.  &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754"/>
         <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="-13.56821512783722"/>
-        <Option name="component_pos_y" type="double" value="282.6955285657526"/>
+        <Option name="component_pos_x" type="double" value="1246.4317848721628"/>
+        <Option name="component_pos_y" type="double" value="480.1955285657526"/>
         <Option name="component_width" type="double" value="100"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -570,8 +570,8 @@
         <Option name="FIELDS_TO_COPY" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="List">
-              <Option type="invalid"/>
+            <Option name="static_value" type="StringList">
+              <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
@@ -603,7 +603,7 @@
         <Option name="PREFIX" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
       </Option>
