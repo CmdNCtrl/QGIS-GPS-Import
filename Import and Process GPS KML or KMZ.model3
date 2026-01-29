@@ -36,7 +36,7 @@
         <Option name="SOURCE_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="SOURCE_LAYER" type="List">
@@ -49,7 +49,7 @@
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="TARGET_LAYER" type="List">
@@ -75,7 +75,7 @@
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option name="component_description" type="QString" value="Append features to final table - Points"/>
+      <Option name="component_description" type="QString" value="Append features to final table - Lines"/>
       <Option name="component_height" type="double" value="30"/>
       <Option name="component_pos_x" type="double" value="1309.3333333333333"/>
       <Option name="component_pos_y" type="double" value="677.6666666666666"/>
@@ -603,7 +603,7 @@
         <Option name="PREFIX" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -869,7 +869,7 @@
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option name="select_kml_or_kmz_file" type="QString" value="/Users/jdruding/Documents/GIS/GaiaGPS Export/KMZ/Exploring_Sandy_Ridge.kmz"/>
+    <Option name="select_kml_or_kmz_file" type="QString" value="/Users/johndruding/Documents/GIS/GaiaGPS Export/KMZ/Pine_Barrens.kmz"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
