@@ -2,997 +2,961 @@
 <Option type="Map">
   <Option name="children" type="Map">
     <Option name="etl_load:appendfeaturestolayer_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="etl_load:appendfeaturestolayer"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="etl_load:appendfeaturestolayer" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  "/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1144.1666666666665"/>
-        <Option name="component_pos_y" type="double" value="943.612950058072"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  " type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1144.1666666666665" type="double"/>
+        <Option name="component_pos_y" value="943.612950058072" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Append features to final table - Points"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="1208"/>
-      <Option name="component_pos_y" type="double" value="830.862950058072"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Append features to final table - Points" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="1348" type="double"/>
+      <Option name="component_pos_y" value="889.5296167247386" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="etl_load:appendfeaturestolayer_1"/>
+      <Option name="id" value="etl_load:appendfeaturestolayer_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="ACTION_ON_DUPLICATE" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="SOURCE_FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="SOURCE_LAYER" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:joinattributestable_2"/>
-            <Option name="output_name" type="QString" value="NON_MATCHING"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:joinattributestable_2" type="QString"/>
+            <Option name="output_name" value="NON_MATCHING" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="TARGET_LAYER" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="GPS_Points_09823824_7c5f_4f9a_92c3_4f7b0fdb0721"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="GPS_Points_09823824_7c5f_4f9a_92c3_4f7b0fdb0721" type="QString"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="etl_load:appendfeaturestolayer_2" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="etl_load:appendfeaturestolayer"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="etl_load:appendfeaturestolayer" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  "/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1614.75"/>
-        <Option name="component_pos_y" type="double" value="695.5833333333333"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  " type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1614.75" type="double"/>
+        <Option name="component_pos_y" value="695.5833333333333" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Append features to final table - Lines"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="1616"/>
-      <Option name="component_pos_y" type="double" value="815.6666666666667"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Append features to final table - Lines" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="1616" type="double"/>
+      <Option name="component_pos_y" value="815.6666666666667" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="etl_load:appendfeaturestolayer_2"/>
+      <Option name="id" value="etl_load:appendfeaturestolayer_2" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="ACTION_ON_DUPLICATE" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="SOURCE_FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="" type="QString"/>
           </Option>
         </Option>
         <Option name="SOURCE_LAYER" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:extractbyexpression_2"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:joinattributestable_3" type="QString"/>
+            <Option name="output_name" value="NON_MATCHING" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="" type="QString"/>
           </Option>
         </Option>
         <Option name="TARGET_LAYER" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="GPS_Lines_77dbb10f_3fe4_4563_9e51_6b7030790899"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="GPS_Lines_77dbb10f_3fe4_4563_9e51_6b7030790899" type="QString"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="kmltools:importkml_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="kmltools:importkml"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="kmltools:importkml" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/25/26 - Use the KML Tools plug in to import the the KML/KMZ data.  Split into a line layer and a point layer. "/>
-        <Option name="component_height" type="double" value="57.33333333333333"/>
-        <Option name="component_pos_x" type="double" value="354.6666666666667"/>
-        <Option name="component_pos_y" type="double" value="51"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/25/26 - Use the KML Tools plug in to import the the KML/KMZ data.  Split into a line layer and a point layer. " type="QString"/>
+        <Option name="component_height" value="57.33333333333333" type="double"/>
+        <Option name="component_pos_x" value="354.6666666666667" type="double"/>
+        <Option name="component_pos_y" value="51" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Import KML/KMZ"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="335.6006097560975"/>
-      <Option name="component_pos_y" type="double" value="123.38240418118464"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Import KML/KMZ" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="335.6006097560975" type="double"/>
+      <Option name="component_pos_y" value="123.38240418118464" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="kmltools:importkml_1"/>
+      <Option name="id" value="kmltools:importkml_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="Input" type="List">
           <Option type="Map">
-            <Option name="parameter_name" type="QString" value="select_kml_or_kmz_file"/>
-            <Option name="source" type="int" value="0"/>
+            <Option name="parameter_name" value="select_kml_or_kmz_file" type="QString"/>
+            <Option name="source" value="0" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:calculateexpression_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:calculateexpression"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:calculateexpression" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/21/26 - This expression generates a date/timestamp that is used in the points and line layer as unique id of the runtime of the processing model.  "/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="121.60873983739839"/>
-        <Option name="component_pos_y" type="double" value="417.48765969802537"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/21/26 - This expression generates a date/timestamp that is used in the points and line layer as unique id of the runtime of the processing model.  " type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="121.60873983739839" type="double"/>
+        <Option name="component_pos_y" value="417.48765969802537" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Calculate expression Set Runtime"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="122.16666666666674"/>
-      <Option name="component_pos_y" type="double" value="302.9166666666665"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Calculate expression Set Runtime" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="122.16666666666674" type="double"/>
+      <Option name="component_pos_y" value="302.9166666666665" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:calculateexpression_1"/>
+      <Option name="id" value="native:calculateexpression_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value="now()"/>
-            <Option name="source" type="int" value="3"/>
+            <Option name="expression" value="now()" type="QString"/>
+            <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:extractbyexpression_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:extractbyexpression"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:extractbyexpression" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="This step isolates the (End) points so that we can join them with the lines and then use the end point descrption to update the Line description"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="591.2263356562135"/>
-        <Option name="component_pos_y" type="double" value="89.72996515679438"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="This step isolates the (End) points so that we can join them with the lines and then use the end point descrption to update the Line description" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="591.2263356562135" type="double"/>
+        <Option name="component_pos_y" value="89.72996515679438" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Extract by expression"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="592.2498548199766"/>
-      <Option name="component_pos_y" type="double" value="182.576800232288"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Extract by expression" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="592.2498548199766" type="double"/>
+      <Option name="component_pos_y" value="182.576800232288" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:extractbyexpression_1"/>
+      <Option name="id" value="native:extractbyexpression_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="EXPRESSION" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=" &quot;name&quot; = '(End)'"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value=" &quot;name&quot; = '(End)'" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="kmltools:importkml_1"/>
-            <Option name="output_name" type="QString" value="PointOutputLayer"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="kmltools:importkml_1" type="QString"/>
+            <Option name="output_name" value="PointOutputLayer" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:extractbyexpression_2" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:extractbyexpression"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:extractbyexpression" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/29/26 - Some lines had zero length and therefore interpreted as points.   This is probably corrputed data.  Used an expression to drop lines that have 0 length.  "/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1418.6666666666665"/>
-        <Option name="component_pos_y" type="double" value="604.5296167247387"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/30/26 - Changed the order so that the invalid lines are dropped first before the join is done.  Before I did this, the join would also show that rows needed to be appended when they just got dropped by this step.  &#xa;&#xa;1/29/26 - Some lines had zero length and therefore interpreted as points.   This is probably corrputed data.  Used an expression to drop lines that have 0 length.  " type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1234.6666666666665" type="double"/>
+        <Option name="component_pos_y" value="515.1962833914055" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Drop lines with zero length"/>
-      <Option name="component_height" type="double" value="36.66666666666674"/>
-      <Option name="component_pos_x" type="double" value="1418.6666666666667"/>
-      <Option name="component_pos_y" type="double" value="723.5296167247387"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Drop lines with zero length" type="QString"/>
+      <Option name="component_height" value="36.66666666666674" type="double"/>
+      <Option name="component_pos_x" value="1150.6666666666667" type="double"/>
+      <Option name="component_pos_y" value="623.5296167247387" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:extractbyexpression_2"/>
+      <Option name="id" value="native:extractbyexpression_2" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="EXPRESSION" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="$length > 0.5"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="$length > 0.5" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:joinattributestable_3"/>
-            <Option name="output_name" type="QString" value="NON_MATCHING"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:fieldcalculator_2" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:fieldcalculator_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:fieldcalculator"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:fieldcalculator" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="637.3124274099882"/>
-        <Option name="component_pos_y" type="double" value="784.5296167247386"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="637.3124274099882" type="double"/>
+        <Option name="component_pos_y" value="784.5296167247386" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Add match_key to points"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="794.5624274099881"/>
-      <Option name="component_pos_y" type="double" value="668.1962833914052"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Add match_key to points" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="794.5624274099881" type="double"/>
+      <Option name="component_pos_y" value="668.1962833914052" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:fieldcalculator_1"/>
+      <Option name="id" value="native:fieldcalculator_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="false"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="false" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="FIELD_LENGTH" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="FIELD_NAME" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="match_key" type="QString"/>
           </Option>
         </Option>
         <Option name="FIELD_PRECISION" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="FIELD_TYPE" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="2" type="int"/>
           </Option>
         </Option>
         <Option name="FORMULA" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="&quot;source&quot;||'|'||&quot;folders&quot;||'|'||&quot;name&quot;"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="&quot;source&quot;||'|'||&quot;folders&quot;||'|'||&quot;name&quot;" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:refactorfields_2"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:refactorfields_2" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'"/>
-            <Option name="source" type="int" value="3"/>
+            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'" type="QString"/>
+            <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:fieldcalculator_2" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:fieldcalculator"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:fieldcalculator" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1107.3333333333335"/>
-        <Option name="component_pos_y" type="double" value="425.33333333333326"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1107.3333333333335" type="double"/>
+        <Option name="component_pos_y" value="425.33333333333326" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Add match_key to lines"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="1042.2319878129717"/>
-      <Option name="component_pos_y" type="double" value="519.5570878708414"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Add match_key to lines" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="1042.2319878129717" type="double"/>
+      <Option name="component_pos_y" value="519.5570878708414" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:fieldcalculator_2"/>
+      <Option name="id" value="native:fieldcalculator_2" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="FIELD_LENGTH" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="FIELD_NAME" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="match_key" type="QString"/>
           </Option>
         </Option>
         <Option name="FIELD_PRECISION" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="0"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
           </Option>
         </Option>
         <Option name="FIELD_TYPE" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="2" type="int"/>
           </Option>
         </Option>
         <Option name="FORMULA" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="&quot;source&quot;||'|'||&quot;folders&quot;||'|'||&quot;name&quot;"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="&quot;source&quot;||'|'||&quot;folders&quot;||'|'||&quot;name&quot;" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:refactorfields_1"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:refactorfields_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'"/>
-            <Option name="source" type="int" value="3"/>
+            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home || '/GeoPackage/GaiaGPS GeoPackage.gpkg' ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'" type="QString"/>
+            <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:joinattributestable_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:joinattributestable"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:joinattributestable" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/25/26 - Join the lines with the isolated &quot;(End)&quot; points in order to copy the End point description to the lines. "/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="751.9999999999999"/>
-        <Option name="component_pos_y" type="double" value="231"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/25/26 - Join the lines with the isolated &quot;(End)&quot; points in order to copy the End point description to the lines. " type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="751.9999999999999" type="double"/>
+        <Option name="component_pos_y" value="231" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Join attributes by field value"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="743.7002032520325"/>
-      <Option name="component_pos_y" type="double" value="305.4322009291521"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Join attributes by field value" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="743.7002032520325" type="double"/>
+      <Option name="component_pos_y" value="305.4322009291521" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:joinattributestable_1"/>
+      <Option name="id" value="native:joinattributestable_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="DISCARD_NONMATCHING" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="bool" value="false"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
           </Option>
         </Option>
         <Option name="FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="folders"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="folders" type="QString"/>
           </Option>
         </Option>
         <Option name="FIELDS_TO_COPY" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="List">
-              <Option type="QString" value="description"/>
+              <Option value="description" type="QString"/>
             </Option>
           </Option>
         </Option>
         <Option name="FIELD_2" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="folders"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="folders" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="kmltools:importkml_1"/>
-            <Option name="output_name" type="QString" value="LineOutputLayer"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="kmltools:importkml_1" type="QString"/>
+            <Option name="output_name" value="LineOutputLayer" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:extractbyexpression_1"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:extractbyexpression_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="METHOD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="1"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="PREFIX" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="end_point_"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="end_point_" type="QString"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:joinattributestable_2" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:joinattributestable"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:joinattributestable" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/26 - Create new layer with just the new features that need to be appended.  &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="908.6637726851344"/>
-        <Option name="component_pos_y" type="double" value="855.891811957158"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/30/26 - Create new layer with just the new features that need to be appended.  Previously used the match_key, but changed to use recorded date. &#xa;&#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="893.9971060184678" type="double"/>
+        <Option name="component_pos_y" value="907.891811957158" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Find which features exist already - Points"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="947.565321146305"/>
-      <Option name="component_pos_y" type="double" value="734.862950058072"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Find which features exist already - Points" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="1052.8986544796383" type="double"/>
+      <Option name="component_pos_y" value="805.5296167247387" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:joinattributestable_2"/>
+      <Option name="id" value="native:joinattributestable_2" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="false"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="DISCARD_NONMATCHING" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="bool" value="false"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
           </Option>
         </Option>
         <Option name="FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="recorded" type="QString"/>
           </Option>
         </Option>
         <Option name="FIELDS_TO_COPY" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="StringList">
-              <Option type="QString" value=""/>
+              <Option value="" type="QString"/>
             </Option>
           </Option>
         </Option>
         <Option name="FIELD_2" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="recorded" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:fieldcalculator_1"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:fieldcalculator_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="GPS_Points_09823824_7c5f_4f9a_92c3_4f7b0fdb0721"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="GPS_Points_09823824_7c5f_4f9a_92c3_4f7b0fdb0721" type="QString"/>
           </Option>
         </Option>
         <Option name="METHOD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="1"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="PREFIX" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="" type="QString"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:joinattributestable_3" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:joinattributestable"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:joinattributestable" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/26 - Create new layer with just the new features that need to be appended.  &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1246.4317848721628"/>
-        <Option name="component_pos_y" type="double" value="480.1955285657526"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/30/26 - Create new layer with just the new features that need to be appended.  Previously used the match_key, but changed to use recorded date. &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1369.0984515388293" type="double"/>
+        <Option name="component_pos_y" value="637.5288618990859" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Find which features exist already - Lines"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="1206.6666666666665"/>
-      <Option name="component_pos_y" type="double" value="592.9999999999999"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Find which features exist already - Lines" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="1298.6666666666665" type="double"/>
+      <Option name="component_pos_y" value="723.6666666666665" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:joinattributestable_3"/>
+      <Option name="id" value="native:joinattributestable_3" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="false"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="DISCARD_NONMATCHING" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="bool" value="false"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
           </Option>
         </Option>
         <Option name="FIELD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="recorded" type="QString"/>
           </Option>
         </Option>
         <Option name="FIELDS_TO_COPY" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="StringList">
-              <Option type="QString" value=""/>
+              <Option value="" type="QString"/>
             </Option>
           </Option>
         </Option>
         <Option name="FIELD_2" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="match_key"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="recorded" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:fieldcalculator_2"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:extractbyexpression_2" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="GPS_Lines_77dbb10f_3fe4_4563_9e51_6b7030790899"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="GPS_Lines_77dbb10f_3fe4_4563_9e51_6b7030790899" type="QString"/>
           </Option>
         </Option>
         <Option name="METHOD" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="int" value="1"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="int"/>
           </Option>
         </Option>
         <Option name="PREFIX" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="" type="QString"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:refactorfields_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:refactorfields"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:refactorfields" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/27/26 - Extract data from description, set the runtime date and populate the source field"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="940.3905936968908"/>
-        <Option name="component_pos_y" type="double" value="257.03599222852176"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/27/26 - Extract data from description, set the runtime date and populate the source field" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="940.3905936968908" type="double"/>
+        <Option name="component_pos_y" value="257.03599222852176" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Refactor fields  Refactor Lines  Populate Fields"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="918.5624274099883"/>
-      <Option name="component_pos_y" type="double" value="410.7662601626014"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Refactor fields  Refactor Lines  Populate Fields" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="918.5624274099883" type="double"/>
+      <Option name="component_pos_y" value="410.7662601626014" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option name="child_id" type="QString" value="native:calculateexpression_1"/>
-          <Option name="conditional_branch" type="QString" value=""/>
+          <Option name="child_id" value="native:calculateexpression_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
         </Option>
       </Option>
-      <Option name="id" type="QString" value="native:refactorfields_1"/>
+      <Option name="id" value="native:refactorfields_1" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="FIELDS_MAPPING" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="List">
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;name&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="name"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;name&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="name" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;folders&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="folders"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;folders&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="folders" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;end_point_description&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="description"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;end_point_description&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="description" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;end_point_description&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="end_point_description"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;end_point_description&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="end_point_description" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="with_variable(&#xa;  'desc',&#xa;  regexp_replace(&quot;end_point_description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable('mon',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\1')),&#xa;  with_variable('day',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\2')),&#xa;  with_variable('yr_s',      regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\3'),&#xa;  with_variable('hr12', to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\4')),&#xa;  with_variable('minu', to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\5')),&#xa;  with_variable('sec',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\6')),&#xa;  with_variable('ampm',      regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\7'),&#xa;&#xa;  with_variable('year',&#xa;    CASE&#xa;      WHEN length(@yr_s) = 2 THEN 2000 + to_int(@yr_s)&#xa;      ELSE to_int(@yr_s)&#xa;    END,&#xa;&#xa;    with_variable('hr24',&#xa;      CASE&#xa;        WHEN @ampm = 'PM' AND @hr12 &lt; 12 THEN @hr12 + 12&#xa;        WHEN @ampm = 'AM' AND @hr12 = 12 THEN 0&#xa;        ELSE @hr12&#xa;      END,&#xa;&#xa;      make_datetime(@year, @mon, @day, @hr24, @minu, @sec)&#xa;    )&#xa;  )))))))))"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="recorded"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="16"/>
-                <Option name="type_name" type="QString" value="datetime"/>
+                <Option name="expression" value="with_variable(&#xa;  'desc',&#xa;  regexp_replace(&quot;end_point_description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable('mon',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\1')),&#xa;  with_variable('day',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\2')),&#xa;  with_variable('yr_s',      regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\3'),&#xa;  with_variable('hr12', to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\4')),&#xa;  with_variable('minu', to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\5')),&#xa;  with_variable('sec',  to_int(regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\6')),&#xa;  with_variable('ampm',      regexp_replace(@desc, '(?is).*Recorded:\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\7'),&#xa;&#xa;  with_variable('year',&#xa;    CASE&#xa;      WHEN length(@yr_s) = 2 THEN 2000 + to_int(@yr_s)&#xa;      ELSE to_int(@yr_s)&#xa;    END,&#xa;&#xa;    with_variable('hr24',&#xa;      CASE&#xa;        WHEN @ampm = 'PM' AND @hr12 &lt; 12 THEN @hr12 + 12&#xa;        WHEN @ampm = 'AM' AND @hr12 = 12 THEN 0&#xa;        ELSE @hr12&#xa;      END,&#xa;&#xa;      make_datetime(@year, @mon, @day, @hr24, @minu, @sec)&#xa;    )&#xa;  )))))))))" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="recorded" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="16" type="int"/>
+                <Option name="type_name" value="datetime" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="with_variable(&#xa;  'desc',&#xa;  regexp_replace(&quot;end_point_description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable(&#xa;    'val',&#xa;    to_real(&#xa;      regexp_replace(&#xa;        @desc,&#xa;        '(?is).*Total Distance:\\s*([0-9.]+)\\s*(mi|ft).*',&#xa;        '\\1'&#xa;      )&#xa;    ),&#xa;&#xa;    with_variable(&#xa;      'unit',&#xa;      regexp_replace(&#xa;        @desc,&#xa;        '(?is).*Total Distance:\\s*[0-9.]+\\s*(mi|ft).*',&#xa;        '\\1'&#xa;      ),&#xa;&#xa;      CASE&#xa;        WHEN @unit = 'mi' THEN @val * 1609.344&#xa;        WHEN @unit = 'ft' THEN @val * 0.3048&#xa;        ELSE NULL&#xa;      END&#xa;    )&#xa;  )&#xa;)"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="total_distance"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="6"/>
-                <Option name="type_name" type="QString" value="double precision"/>
+                <Option name="expression" value="with_variable(&#xa;  'desc',&#xa;  regexp_replace(&quot;end_point_description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable(&#xa;    'val',&#xa;    to_real(&#xa;      regexp_replace(&#xa;        @desc,&#xa;        '(?is).*Total Distance:\\s*([0-9.]+)\\s*(mi|ft).*',&#xa;        '\\1'&#xa;      )&#xa;    ),&#xa;&#xa;    with_variable(&#xa;      'unit',&#xa;      regexp_replace(&#xa;        @desc,&#xa;        '(?is).*Total Distance:\\s*[0-9.]+\\s*(mi|ft).*',&#xa;        '\\1'&#xa;      ),&#xa;&#xa;      CASE&#xa;        WHEN @unit = 'mi' THEN @val * 1609.344&#xa;        WHEN @unit = 'ft' THEN @val * 0.3048&#xa;        ELSE NULL&#xa;      END&#xa;    )&#xa;  )&#xa;)" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="total_distance" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="6" type="int"/>
+                <Option name="type_name" value="double precision" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value=" @Calculate_expression_Set_Runtime_OUTPUT "/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="imported_at"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="16"/>
-                <Option name="type_name" type="QString" value="datetime"/>
+                <Option name="expression" value=" @Calculate_expression_Set_Runtime_OUTPUT " type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="imported_at" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="16" type="int"/>
+                <Option name="type_name" value="datetime" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="'GaiaGPS'"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="source"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="'GaiaGPS'" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="source" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:joinattributestable_1"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="native:joinattributestable_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:refactorfields_2" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" value="true" type="bool"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:refactorfields"/>
-      <Option name="color" type="QString" value=""/>
+      <Option name="alg_id" value="native:refactorfields" type="QString"/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value="1/21/25 - &#xa;&#xa;Extract recorded date from Description: populate the recorded field, however, the (Start), (End) and points each have a different way to mark the start in the description field.  Created an expression that handles all three cases and populates the recorded field.&#xa;Load &quot;imported_at&quot; date/time field using the Cacluate Expression to set the date/time for all records imported.&#xa;"/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="406.04224738675947"/>
-        <Option name="component_pos_y" type="double" value="602.706300813008"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="1/21/25 - &#xa;&#xa;Extract recorded date from Description: populate the recorded field, however, the (Start), (End) and points each have a different way to mark the start in the description field.  Created an expression that handles all three cases and populates the recorded field.&#xa;Load &quot;imported_at&quot; date/time field using the Cacluate Expression to set the date/time for all records imported.&#xa;" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="406.04224738675947" type="double"/>
+        <Option name="component_pos_y" value="602.706300813008" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="Refactor fields  Points  Populate fields"/>
-      <Option name="component_height" type="double" value="36.659117305458835"/>
-      <Option name="component_pos_x" type="double" value="635.5553135888501"/>
-      <Option name="component_pos_y" type="double" value="509.5296167247386"/>
-      <Option name="component_width" type="double" value="200"/>
+      <Option name="component_description" value="Refactor fields  Points  Populate fields" type="QString"/>
+      <Option name="component_height" value="36.659117305458835" type="double"/>
+      <Option name="component_pos_x" value="635.5553135888501" type="double"/>
+      <Option name="component_pos_y" value="509.5296167247386" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option name="child_id" type="QString" value="native:calculateexpression_1"/>
-          <Option name="conditional_branch" type="QString" value=""/>
+          <Option name="child_id" value="native:calculateexpression_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
         </Option>
       </Option>
-      <Option name="id" type="QString" value="native:refactorfields_2"/>
+      <Option name="id" value="native:refactorfields_2" type="QString"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
       <Option name="params" type="Map">
         <Option name="FIELDS_MAPPING" type="List">
           <Option type="Map">
-            <Option name="source" type="int" value="2"/>
+            <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="List">
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;name&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="name"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;name&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="name" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;folders&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="folders"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;folders&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="folders" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="&quot;description&quot;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="description"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="&quot;description&quot;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="description" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="with_variable(&#xa;  'd',&#xa;  regexp_replace(&quot;description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable(&#xa;    'label',&#xa;    CASE&#xa;      WHEN regexp_match(@d, '(?i)Time Created:') > 0 THEN 'Time Created:'&#xa;      WHEN regexp_match(@d, '(?i)Time Started:') > 0 THEN 'Time Started:'&#xa;      WHEN regexp_match(@d, '(?i)Recorded:') > 0 THEN 'Recorded:'&#xa;      ELSE NULL&#xa;    END,&#xa;&#xa;    with_variable(&#xa;      'm',&#xa;      regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\1'),&#xa;      with_variable(&#xa;        'day',&#xa;        regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\2'),&#xa;        with_variable(&#xa;          'yr_s',&#xa;          regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\3'),&#xa;          with_variable(&#xa;            'h12',&#xa;            regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\4'),&#xa;            with_variable(&#xa;              'minu',&#xa;              regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\5'),&#xa;              with_variable(&#xa;                'sec',&#xa;                regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\6'),&#xa;                with_variable(&#xa;                  'ampm',&#xa;                  regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\7'),&#xa;&#xa;                  CASE&#xa;                    WHEN @label IS NULL THEN NULL&#xa;                    ELSE&#xa;                      with_variable(&#xa;                        'year',&#xa;                        CASE&#xa;                          WHEN length(@yr_s) = 2 THEN 2000 + to_int(@yr_s)&#xa;                          ELSE to_int(@yr_s)&#xa;                        END,&#xa;                        with_variable(&#xa;                          'h24',&#xa;                          CASE&#xa;                            WHEN @ampm = 'PM' AND to_int(@h12) &lt; 12 THEN to_int(@h12) + 12&#xa;                            WHEN @ampm = 'AM' AND to_int(@h12) = 12 THEN 0&#xa;                            ELSE to_int(@h12)&#xa;                          END,&#xa;                          make_datetime(&#xa;                            @year,&#xa;                            to_int(@m),&#xa;                            to_int(@day),&#xa;                            @h24,&#xa;                            to_int(@minu),&#xa;                            to_int(@sec)&#xa;                          )&#xa;                        )&#xa;                      )&#xa;                  END&#xa;                )&#xa;              )&#xa;            )&#xa;          )&#xa;        )&#xa;      )&#xa;    )&#xa;  )&#xa;)&#xa;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="recorded"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="16"/>
-                <Option name="type_name" type="QString" value="datetime"/>
+                <Option name="expression" value="with_variable(&#xa;  'd',&#xa;  regexp_replace(&quot;description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  with_variable(&#xa;    'label',&#xa;    CASE&#xa;      WHEN regexp_match(@d, '(?i)Time Created:') > 0 THEN 'Time Created:'&#xa;      WHEN regexp_match(@d, '(?i)Time Started:') > 0 THEN 'Time Started:'&#xa;      WHEN regexp_match(@d, '(?i)Recorded:') > 0 THEN 'Recorded:'&#xa;      ELSE NULL&#xa;    END,&#xa;&#xa;    with_variable(&#xa;      'm',&#xa;      regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\1'),&#xa;      with_variable(&#xa;        'day',&#xa;        regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\2'),&#xa;        with_variable(&#xa;          'yr_s',&#xa;          regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\3'),&#xa;          with_variable(&#xa;            'h12',&#xa;            regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\4'),&#xa;            with_variable(&#xa;              'minu',&#xa;              regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\5'),&#xa;              with_variable(&#xa;                'sec',&#xa;                regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\6'),&#xa;                with_variable(&#xa;                  'ampm',&#xa;                  regexp_replace(@d, '(?is).*' || @label || '\\s*([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4}),\\s*([0-9]{1,2}):([0-9]{2}):([0-9]{2})\\s*([AP]M).*', '\\7'),&#xa;&#xa;                  CASE&#xa;                    WHEN @label IS NULL THEN NULL&#xa;                    ELSE&#xa;                      with_variable(&#xa;                        'year',&#xa;                        CASE&#xa;                          WHEN length(@yr_s) = 2 THEN 2000 + to_int(@yr_s)&#xa;                          ELSE to_int(@yr_s)&#xa;                        END,&#xa;                        with_variable(&#xa;                          'h24',&#xa;                          CASE&#xa;                            WHEN @ampm = 'PM' AND to_int(@h12) &lt; 12 THEN to_int(@h12) + 12&#xa;                            WHEN @ampm = 'AM' AND to_int(@h12) = 12 THEN 0&#xa;                            ELSE to_int(@h12)&#xa;                          END,&#xa;                          make_datetime(&#xa;                            @year,&#xa;                            to_int(@m),&#xa;                            to_int(@day),&#xa;                            @h24,&#xa;                            to_int(@minu),&#xa;                            to_int(@sec)&#xa;                          )&#xa;                        )&#xa;                      )&#xa;                  END&#xa;                )&#xa;              )&#xa;            )&#xa;          )&#xa;        )&#xa;      )&#xa;    )&#xa;  )&#xa;)&#xa;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="recorded" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="16" type="int"/>
+                <Option name="type_name" value="datetime" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value=" @Calculate_expression_Set_Runtime_OUTPUT "/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="imported_at"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="16"/>
-                <Option name="type_name" type="QString" value="datetime"/>
+                <Option name="expression" value=" @Calculate_expression_Set_Runtime_OUTPUT " type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="imported_at" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="16" type="int"/>
+                <Option name="type_name" value="datetime" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="with_variable(&#xa;  'd',&#xa;  regexp_replace(&quot;description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  regexp_replace(&#xa;    @d,&#xa;    '(?is)&lt;img([^>]*?)\\ssrc=[&quot;''](?!https?://|file:)([^&quot;'']+)[&quot;'']',&#xa;    '&lt;img\\1 src=''file:///' || ltrim(@project_home, '/') || '/photos/\\2'''&#xa;  )&#xa;)&#xa;"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="description_html"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="with_variable(&#xa;  'd',&#xa;  regexp_replace(&quot;description&quot;, '[\\x{00A0}\\x{202F}]', ' '),&#xa;&#xa;  regexp_replace(&#xa;    @d,&#xa;    '(?is)&lt;img([^>]*?)\\ssrc=[&quot;''](?!https?://|file:)([^&quot;'']+)[&quot;'']',&#xa;    '&lt;img\\1 src=''file:///' || ltrim(@project_home, '/') || '/photos/\\2'''&#xa;  )&#xa;)&#xa;" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="description_html" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
                 <Option name="alias" type="invalid"/>
                 <Option name="comment" type="invalid"/>
-                <Option name="expression" type="QString" value="'GaiaGPS'"/>
-                <Option name="length" type="int" value="0"/>
-                <Option name="name" type="QString" value="source"/>
-                <Option name="precision" type="int" value="0"/>
-                <Option name="sub_type" type="int" value="0"/>
-                <Option name="type" type="int" value="10"/>
-                <Option name="type_name" type="QString" value="text"/>
+                <Option name="expression" value="'GaiaGPS'" type="QString"/>
+                <Option name="length" value="0" type="int"/>
+                <Option name="name" value="source" type="QString"/>
+                <Option name="precision" value="0" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="10" type="int"/>
+                <Option name="type_name" value="text" type="QString"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="kmltools:importkml_1"/>
-            <Option name="output_name" type="QString" value="PointOutputLayer"/>
-            <Option name="source" type="int" value="1"/>
+            <Option name="child_id" value="kmltools:importkml_1" type="QString"/>
+            <Option name="output_name" value="PointOutputLayer" type="QString"/>
+            <Option name="source" value="1" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option name="select_kml_or_kmz_file" type="QString" value="/Users/jdruding/Documents/GIS/GaiaGPS Export/KMZ/Pine_Barrens.kmz"/>
-    <Option name="test_kml_import_lines" type="QgsProcessingOutputLayerDefinition">
-      <Option type="Map">
-        <Option name="create_options" type="Map">
-          <Option name="fileEncoding" type="QString" value="UTF-8"/>
-        </Option>
-        <Option name="sink" type="Map">
-          <Option name="active" type="bool" value="true"/>
-          <Option name="type" type="int" value="1"/>
-          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
-        </Option>
-      </Option>
-    </Option>
-    <Option name="test_kml_import_points" type="QgsProcessingOutputLayerDefinition">
-      <Option type="Map">
-        <Option name="create_options" type="Map">
-          <Option name="fileEncoding" type="QString" value="UTF-8"/>
-        </Option>
-        <Option name="sink" type="Map">
-          <Option name="active" type="bool" value="true"/>
-          <Option name="type" type="int" value="1"/>
-          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
-        </Option>
-      </Option>
-    </Option>
-    <Option name="test_matching" type="QgsProcessingOutputLayerDefinition">
-      <Option type="Map">
-        <Option name="create_options" type="Map">
-          <Option name="fileEncoding" type="QString" value="UTF-8"/>
-        </Option>
-        <Option name="sink" type="Map">
-          <Option name="active" type="bool" value="true"/>
-          <Option name="type" type="int" value="1"/>
-          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
-        </Option>
-      </Option>
-    </Option>
+    <Option name="select_kml_or_kmz_file" value="/Users/jdruding/Documents/GIS/GaiaGPS Export/KMZ/Pine_Barrens.kmz" type="QString"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
-  <Option name="internal_version" type="QString" value="Version2"/>
+  <Option name="internal_version" value="Version2" type="QString"/>
   <Option name="modelVariables"/>
-  <Option name="model_group" type="QString" value=""/>
-  <Option name="model_name" type="QString" value="Import and Process GPS KML or KMZ"/>
-  <Option name="outputGroup" type="QString" value=""/>
+  <Option name="model_group" value="" type="QString"/>
+  <Option name="model_name" value="Import and Process GPS KML or KMZ" type="QString"/>
+  <Option name="outputGroup" value="" type="QString"/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="select_kml_or_kmz_file" type="Map">
-      <Option name="behavior" type="int" value="0"/>
+      <Option name="behavior" value="0" type="int"/>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Select KML or KMZ File"/>
-      <Option name="extension" type="QString" value=""/>
-      <Option name="filefilter" type="QString" value="All Files (*.*)"/>
-      <Option name="flags" type="int" value="0"/>
-      <Option name="help" type="QString" value=""/>
+      <Option name="description" value="Select KML or KMZ File" type="QString"/>
+      <Option name="extension" value="" type="QString"/>
+      <Option name="filefilter" value="All Files (*.*)" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
       <Option name="metadata"/>
-      <Option name="name" type="QString" value="select_kml_or_kmz_file"/>
-      <Option name="parameter_type" type="QString" value="file"/>
+      <Option name="name" value="select_kml_or_kmz_file" type="QString"/>
+      <Option name="parameter_type" value="file" type="QString"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
   <Option name="parameters" type="Map">
     <Option name="select_kml_or_kmz_file" type="Map">
-      <Option name="color" type="QString" value=""/>
+      <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="320"/>
-        <Option name="component_pos_y" type="double" value="15"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="320" type="double"/>
+        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" type="QString" value="select_kml_or_kmz_file"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="120"/>
-      <Option name="component_pos_y" type="double" value="60"/>
-      <Option name="component_width" type="double" value="200"/>
-      <Option name="name" type="QString" value="select_kml_or_kmz_file"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="component_description" value="select_kml_or_kmz_file" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="120" type="double"/>
+      <Option name="component_pos_y" value="60" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="select_kml_or_kmz_file" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
     </Option>
   </Option>
 </Option>
