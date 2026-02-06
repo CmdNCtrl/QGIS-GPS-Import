@@ -21,7 +21,7 @@ This QGIS Processing Model imports a KML/KMZ export from GaiaGPS so that you can
     * Imported At
     * Source (GaiaGPS)
 
-* Checks to see if the tracks and points already exist in the above mentioned tables bsed on the recorded date/time and drops and duplicates.
+* Checks to see if the tracks and points already exist in the above mentioned tables based on the recorded date/time and drops any duplicates.
 * Extracts any photos that are associated with the extracted **Waypoints** and puts them in a `/photos` folder inside the QGIS **Project Home** (`@project_home`) folder.
 * Allows you to view the photos associated with you **Waypoints** right in your QGIS Attributes Form.  The processing model sets up the Descrption_HTML field with the proper path to display your photos.  You will just need to configure the descrption_html field to be multiple lines and display as HTML.  
 
