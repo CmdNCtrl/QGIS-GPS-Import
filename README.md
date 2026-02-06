@@ -1,5 +1,3 @@
----
-
 # Import and Process GPS KML or KMZ (QGIS Model)
 
 ## Purpose
@@ -243,3 +241,4 @@ Best practice: keep the target schema aligned with the refactor output schema so
 * **Images not rendering in forms:** confirm photos exist at `@project_home/photos/` and that the description HTML references match actual filenames.
 
 ---
+
