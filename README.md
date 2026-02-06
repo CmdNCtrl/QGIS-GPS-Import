@@ -1,17 +1,31 @@
-Below is a copy/paste **README.md** for your QGIS Processing Model (read directly from: `Import and Process GPS KML or KMZ.model3`).
-
 ---
 
 # Import and Process GPS KML or KMZ (QGIS Model)
 
 ## Purpose
 
-This QGIS Processing Model imports a **GaiaGPS-exported KML/KMZ**, normalizes the resulting **points** and **lines** into a consistent schema, generates a **de-duplication key (`match_key`)**, and then **appends only new records** into an existing GeoPackage:
+This QGIS Processing Model imports a KML/KMZ export from GaiaGPS so that you can view all your GaiaGPS recorded tracks and way points in QGIS. This model has the following features:
 
-* `GPS_Points` (target)
-* `GPS_Lines` (target)
+* Imports a **GaiaGPS-exported KML/KMZ** file and extacts the points and lines and puts them in tables called `GPS_Points` and `GPS_Lines`
+* Extracts the following information from the GaiaGPS metadata and loads it to explicit fields in the tables
+  * **Tracks (lines)**
+    * Name
+    * Description
+    * Recorded On
+    * Imported At
+    * Total Distance
+    * Source (GaiaGPS)
+  * **Waypoints (points)**
+    * Name
+    * Description
+    * Recorded On
+    * Imported At
+    * Source (GaiaGPS)
 
-It also creates intermediate GeoPackage tables (`*_Temp`) as part of a workaround for a known QGIS Modeler output issue.
+* Checks to see if the tracks and points already exist in the above mentioned tables bsed on the recorded date/time and drops and duplicates.
+* Extracts any photos that are associated with the extracted **Waypoints** and puts them in a `/photos` folder inside the QGIS **Project Home** (`@project_home`) folder.
+
+
 
 ---
 
@@ -229,15 +243,3 @@ Best practice: keep the target schema aligned with the refactor output schema so
 * **Images not rendering in forms:** confirm photos exist at `@project_home/photos/` and that the description HTML references match actual filenames.
 
 ---
-
-## Version Control Suggestions
-
-To track this model in Git:
-
-* Commit the `.model3` file itself (this is the authoritative model definition).
-* Keep this README in the same folder as the model.
-* Optionally add a `/samples/` folder with a small example `.kmz` (if you’re okay storing one in the repo).
-
----
-
-If you want, I can also generate a companion **CHANGELOG.md** format based on the dated notes embedded in the model components (1/21/25, 1/25/26, 1/27/26, etc.).
