@@ -1,4 +1,4 @@
-# Import and Process GaiaGPS KML or KMZ into QGIS
+# Import GaiaGPS KML or KMZ into QGIS
 
 ## Purpose
 
