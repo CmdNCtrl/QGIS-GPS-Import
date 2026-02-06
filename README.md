@@ -31,6 +31,24 @@ It also creates intermediate GeoPackage tables (`*_Temp`) as part of a workaroun
    Used by the algorithm: `etl_load:appendfeaturestolayer`
    Purpose: appends new features into your existing GeoPackage layers.
 
+### General
+
+#### Path Settings:
+
+Set the Project Home `@Project_home` variable to be the folder where your project file will be stored.  
+For example, if this is the path to your project:
+
+`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS/GaiaGPS.qgz`
+
+set your `@Project_home` to be:
+
+`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS`
+
+
+This will cause the photos assocated with your GPS Points to be stored in: 
+
+`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS/photos`
+
 ---
 
 ## Expected Project Layout
