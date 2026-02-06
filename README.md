@@ -1,7 +1,8 @@
-# Import and Process GPS KML or KMZ (QGIS Model)
+# Import and Process GaiaGPS KML or KMZ into QGIS
 
 ## Purpose
 
+Are you a big fan of GaiaGPS? Do you also like to geek out on GIS data in QGIS? Do you want to be able to view and analyze your GaiaGPS data in QGIS? You've come to the right place! 
 This QGIS Processing Model imports a KML/KMZ export from GaiaGPS so that you can view all your GaiaGPS recorded tracks and way points in QGIS. This model has the following features:
 
 * Imports a **GaiaGPS-exported KML/KMZ** file and extacts the points and lines and puts them in tables called `GPS_Points` and `GPS_Lines`
@@ -22,6 +23,7 @@ This QGIS Processing Model imports a KML/KMZ export from GaiaGPS so that you can
 
 * Checks to see if the tracks and points already exist in the above mentioned tables bsed on the recorded date/time and drops and duplicates.
 * Extracts any photos that are associated with the extracted **Waypoints** and puts them in a `/photos` folder inside the QGIS **Project Home** (`@project_home`) folder.
+* Allows you to view the photos associated with you **Waypoints** right in your QGIS Attributes Form.  The processing model sets up the Descrption_HTML field with the proper path to display your photos.  You will just need to configure the descrption_html field to be multiple lines and display as HTML.  
 
 
 
