@@ -49,36 +49,18 @@ This model has the following features:
    Used by the algorithm: `etl_load:appendfeaturestolayer`
    Purpose: appends new features into your existing GeoPackage layers.
 
-### General
-
-#### Path Settings:
-
-Set the Project Home `@Project_home` variable to be the folder where your project file will be stored.  
-For example, if this is the path to your project:
-
-`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS/GaiaGPS.qgz`
-
-set your `@Project_home` to be:
-
-`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS`
-
-
-This will cause the photos assocated with your GPS Points to be stored in: 
-
-`/Users/UserHome/Documents/GIS/QGIS/Projects/GaiaGPS/photos`
-
 ---
 
 ## Installation / Set Up
 
 1. Download the lastest released version. It contains 3 main components:
-  * `Import and Process GPS KML or KMZ.model3` - The **Process Model** that you will run within QGIS
-  * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Mdoel**
-  * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
+   * `Import and Process GPS KML or KMZ.model3` - The **Process Model** that you will run within QGIS
+   * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Mdoel**
+   * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
 2. Place the following files in the described locations:
-  * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
-  * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
-  * Copy `GaiaGPS GeoPackage.gpkg` to your project directory
+   * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
+   * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
+   * Copy `GaiaGPS GeoPackage.gpkg` to your project directory
 
 3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. Set your `@project_home` here: Project -> Properties -> General
 
