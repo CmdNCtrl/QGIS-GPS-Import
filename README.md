@@ -71,44 +71,40 @@ This will cause the photos assocated with your GPS Points to be stored in:
 
 ## Installation / Set Up
 
-1. Download the lastest released version
+1. Download the lastest released version. It contains 3 main components:
+  * `Import and Process GPS KML or KMZ.model3` - The **Process Model** that you will run within QGIS
+  * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Mdoel**
+  * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
 2. Place the following files in the described locations:
- * `Import and Process GPS KML or KMZ.model3` - Process Model -  copy to your process model directory
- * `ExtractPhotosFromKMZ.py` - Python Script - Copy to your QGIS scripts directory
- * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the Process Model - Copy to your project directory
+  * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
+  * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
+  * Copy `GaiaGPS GeoPackage.gpkg` to your project directory
 
-3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. 
+3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. Set your `@project_home` here: Project -> Properties -> General
 
+## How to Use
 
+1. Go to GaiaGPS and export a KMZ file which contains the detail you wish to import to QGIS. (follow instructions on GaiaGPS.com for this step)
+2. After following the steps above, open your project in QGIS and open the **Processing Toolbox** pane (Processing -> Toolbox
+3. At the bottom of the **Processing Toolbox** frame, you will see a section called **Models**
+4. Expand **Models** and you should see the model called **Import and Process GPS KML or KMZ**
+5. Select **Import and Process GPS KML or KMZ**, right click and select **Execute...**
+6. Select the KMZ file that you extracted from GaiaGPS in step one and click **Run**
+7. All your data should be loaded to to the tables. **Waypoints** will be loaded to the table **GPS_Points** and **Tracks** will be loaded to the table **GPS_Tracks**.
 
----
+### Photos Associated with you Waypoints
 
-## Inputs
+This tool will extract any photos that are associated with your **Waypoints** to a folder called `/photos' that is contained in the **Project Home**.  This is the location you set in step 3, in **Installation / Set Up**. 
+**NOTE:** There appears to be a bug in the GaiaGPS export where, in some circumstances, not all photos are exported.  This has been reported to GaiaGPS.  If it happens to you, you can report the issue at: https://help.gaiagps.com/hc/en-us , **Contact Support**.  
 
-### Model Parameter
+#### Viewing your Photos in QGIS
 
-* **Select KML or KMZ File** (`select_kml_or_kmz_file`)
+Your photos will appear in field called `description_html`.  For them to appear properly, you will need to change To view your photos in QGIS, you will 
 
-  * Type: file
-  * File filter: All files (*.*)
+<img width="1071" height="797" alt="Screenshot 2026-02-07 at 10 24 40 AM" src="https://github.com/user-attachments/assets/b081b4e3-bb83-495d-9420-aaedc3383a83" />
 
----
+This **Process Model* writes the path to your photos 
 
-## Outputs (What Gets Updated)
-
-### GeoPackage Targets (must already exist. A template GeoPackage containing these tables is included in the release)
-
-* `GPS_Points`
-* `GPS_Lines`
-
-### GeoPackage Temp Tables (created/overwritten by the model)
-
-* `GPS_Points_Temp`
-* `GPS_Lines_Temp`
-
-These temp outputs are used so the model can reliably produce “new-only” layers for appending.
-
----
 
 ## What the Model Does (Step-by-step)
 It is not necessary for you to understand this section in order to use this tool, it is only provided if you have interest in how this works.  
