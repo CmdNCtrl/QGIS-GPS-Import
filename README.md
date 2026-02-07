@@ -8,7 +8,7 @@ This QGIS Processing Model imports a KML/KMZ export from GaiaGPS so that you can
 This model has the following features:
 
 * Imports a **GaiaGPS-exported KML/KMZ** file and extacts the **Tracks** and **Waypoints** and puts them in tables called `GPS_Points` and `GPS_Lines`
-* Extracts the following information from the GaiaGPS metadata and loads it to explicit fields in the tables
+* Extracts the following information from the GaiaGPS metadata and loads it to explicit fields in the tables.  Additional attributes will be added in future releases. 
   * **Tracks (lines)**
     * Name
     * Description
