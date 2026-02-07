@@ -65,23 +65,17 @@ This will cause the photos assocated with your GPS Points to be stored in:
 
 ---
 
-## Expected Project Layout
+## Installation / Set Up
 
-This model relies on `@project_home` (your QGIS Project Home path).
+1. Download the lastest released version
+2. Place the following files in the described locations:
+ * `Import and Process GPS KML or KMZ.model3` - Process Model -  copy to your process model directory
+ * `ExtractPhotosFromKMZ.py` - Python Script - Copy to your QGIS scripts directory
+ * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the Process Model - Copy to your project directory
 
-It expects the GeoPackage to be located at:
+3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. 
 
-* `@project_home/GeoPackage/GaiaGPS GeoPackage.gpkg`
 
-It also assumes photos referenced by GaiaGPS are stored at:
-
-* `@project_home/photos/`
-
-The model builds HTML image paths like:
-
-* `file:///.../<project_home>/photos/<image_name>`
-
-(Used in the `description_html` field for points.)
 
 ---
 
@@ -98,7 +92,7 @@ The model builds HTML image paths like:
 
 ## Outputs (What Gets Updated)
 
-### GeoPackage Targets (must already exist)
+### GeoPackage Targets (must already exist. A template GeoPackage containing these tables is included in the release)
 
 * `GPS_Points`
 * `GPS_Lines`
@@ -113,6 +107,7 @@ These temp outputs are used so the model can reliably produce “new-only” lay
 ---
 
 ## What the Model Does (Step-by-step)
+It is not necessary for you to understand this section in order to use this tool, it is only provided if you have interest in how this works.  
 
 ### 1) Import the KML/KMZ
 
