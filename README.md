@@ -39,6 +39,11 @@ This model has the following features:
 
 * Built for QGIS 3.x (your project history suggests you’re on ~3.44.x).
 
+### Operating System
+ * Mac OS
+ * Windows - Should work, but untested (If you test it, let me know)
+ * Linux - Should work, but untested (If you test it, let me know)
+
 ### Plugins used
 
 1. **KML Tools**
