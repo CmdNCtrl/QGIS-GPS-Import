@@ -27,10 +27,8 @@ This model has the following features:
 
 * Checks to see if the **tracks** and **waypoints** already exist in the above mentioned tables based on the recorded date/time and drops any duplicates. The benefit of this is if you do periodic export of GaiGPS into QGIS, you don't necessarily need to remember if you already imported a specific **track** or **waypoint**.  The tool will check to see if they are already there and will only load the new records.  
 * Extracts any photos that are associated with the extracted **Waypoints** and puts them in a `/photos` folder inside the QGIS **Project Home** (`@project_home`) folder.
-* Allows you to view the photos associated with you **Waypoints** right in your QGIS Attributes Form.  The processing model sets up the Descrption_HTML field with the proper path to display your photos.  You will just need to configure the descrption_html field to be multiple lines and display as HTML.  
-
-
-
+* Allows you to view the photos associated with you **Waypoints** right in your QGIS Attributes Form.  The processing model sets up the Descrption_HTML field with the proper path to display your photos.  You will just need to configure the descrption_html field to be multiple lines and display as HTML.
+  
 ---
 
 ## Requirements
@@ -60,7 +58,7 @@ This model has the following features:
 
 1. Download the lastest released version. It contains 3 main components:
    * `Import and Process GPS KML or KMZ.model3` - The **Process Model** that you will run within QGIS
-   * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Mdoel**
+   * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Model**
    * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
 2. Place the following files in the described locations:
    * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
@@ -86,11 +84,18 @@ This tool will extract any photos that are associated with your **Waypoints** to
 
 #### Viewing your Photos in QGIS
 
-Your photos will appear in field called `description_html`.  For them to appear properly, you will need to change To view your photos in QGIS, you will 
+Your photos will appear in field called `description_html`.  For them to appear properly, you will need to change to view your photos in QGIS, you will need to change the diplay options of the `description_html` field.  
+
+1. Right click on on the **GPS_Points** table and select **Properties**
+2. Go to **Attributes Form**
+3. Select **Drag and Drop Designer** from the dropdown at the top of the screen
+3. Click on `description_html`
+4. Under **Widget Type**, check the **Multiline** box and the **HTML** checkbox
+5. Click Ok
 
 <img width="1071" height="797" alt="Screenshot 2026-02-07 at 10 24 40 AM" src="https://github.com/user-attachments/assets/b081b4e3-bb83-495d-9420-aaedc3383a83" />
 
-This **Process Model* writes the path to your photos 
+This **Process Model** writes the path to your photos in the `description_html` field.  If you move your project folder, it will break the link.  Future releaseas might have an option to update the path if you move the project.  
 
 
 ## What the Model Does (Step-by-step)
@@ -155,7 +160,9 @@ This creates/uses an endpoint-derived field named:
   * `imported_at` set from `@Calculate_expression_Set_Runtime_OUTPUT`
   * `source` hard-coded to `'GaiaGPS'`
 
-### 7) Create `match_key` for de-duplication
+### 7) DEPRECATED: Create `match_key` for de-duplication
+
+This step is still in the process and this field may have some value but the script has been update to use the **Recorded** date to check if the records are new or not.  
 
 * **Algorithm:** `native:fieldcalculator` (run once for points, once for lines)
 * Field: `match_key`
@@ -182,7 +189,7 @@ using OGR connection strings like:
 ### 9) Identify *new-only* records
 
 * **Algorithm:** `native:joinattributestable` (run once for points, once for lines)
-* Join field: `match_key`
+* Join field: `recorded`
 * Join temp layer ↔ target layer (`GPS_Points` / `GPS_Lines`)
 * Uses the model’s NON_MATCHING output to isolate records that do not already exist.
 
@@ -214,6 +221,45 @@ Additionally:
 * Lines workflow uses `end_point_description` during processing (result depends on how your target schema is set up)
 
 Best practice: keep the target schema aligned with the refactor output schema so appends don’t drop fields or fail.
+
+---
+## Extract KMZ Photos (Processing Script)
+
+This project includes a custom **QGIS Processing** Python script that extracts embedded photos from a **GaiaGPS-exported `.kmz`** file (KMZ is a ZIP container) and copies any `.jpg` / `.jpeg` images into this project’s photos folder.
+
+### What it does
+- Opens the input **KMZ** (ZIP) and finds all files ending in **`.jpg`** or **`.jpeg`**
+- Copies those images to the destination photos folder (by default: `@project_home/photos`)
+- Optionally **flattens** subfolders (recommended), so all photos land in a single folder
+- Optionally **overwrites** existing files or skips them
+- Streams files directly from the zip (does not extract the whole KMZ to disk)
+
+### Inputs / Parameters
+- **Input KMZ**: Path to a GaiaGPS-exported `.kmz`
+- **Photos folder**: Destination directory for extracted images  
+  - Recommended: `@project_home || '/photos'`
+- **Flatten subfolders** (boolean, default: `true`): Keep only filenames (ignore KMZ internal folder structure)
+- **Overwrite existing files** (boolean, default: `false`): Replace files in the destination if they already exist
+
+### Output
+- A folder containing the extracted JPG images (e.g. `@project_home/photos`)
+- The Processing log will report how many images were **extracted** and how many were **skipped**
+
+### How it fits into the QGIS Model
+In the Processing Model Designer, this script is typically run near the end of the workflow:
+
+1. **Create directory** → `@project_home || '/photos'`
+2. **Extract KMZ photos** → copies photos from the KMZ to that folder
+
+This keeps the workflow portable, because it uses the QGIS project’s home directory rather than hard-coded paths.
+
+### Cross-platform notes (macOS / Windows)
+- The script uses only standard Python libraries (`zipfile`, `os`, `shutil`) and is cross-platform.
+- If you use `@project_home` (or `QgsProject.instance().homePath()` in defaults), output paths are portable across operating systems.
+
+### Future plugin plan
+This script is written as a **Processing algorithm**, which makes it easy to later bundle into a QGIS plugin as part of a **Processing provider**, alongside the model and any supporting utilities.
+
 
 ---
 
