@@ -13,15 +13,15 @@ This model has the following features:
     * Name
     * Description
     * Recorded On
-    * Imported At
-    * Total Distance
+    * Imported At (Set to the time/date import was run in UTC)
+    * Total Distance (in Meters)
     * Source (GaiaGPS)
     * Geometry
   * **Waypoints (points)**
     * Name
     * Description
     * Recorded On
-    * Imported At
+    * Imported At (Set to the time/date import was run in UTC)
     * Source (GaiaGPS)
     * Geometry
 
