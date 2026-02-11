@@ -77,7 +77,7 @@ This model has the following features:
 6. Select the KMZ file that you extracted from GaiaGPS in step one and click **Run**
 7. All your data should be loaded to to the tables. **Waypoints** will be loaded to the table **GPS_Points** and **Tracks** will be loaded to the table **GPS_Tracks**.
 
-### Photos Associated with you Waypoints
+### Photos Associated with your Waypoints
 
 This tool will extract any photos that are associated with your **Waypoints** to a folder called `/photos' that is contained in the **Project Home**.  This is the location you set in step 3, in **Installation / Set Up**. 
 **NOTE:** There appears to be a bug in the GaiaGPS export where, in some circumstances, not all photos are exported.  This has been reported to GaiaGPS.  If it happens to you, you can report the issue at: https://help.gaiagps.com/hc/en-us , **Contact Support**.  
