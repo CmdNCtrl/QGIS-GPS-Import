@@ -137,7 +137,7 @@ This produces a layer of just the endpoint markers.
 
 This creates/uses an endpoint-derived field named:
 
-* `end_point_description`  ✅ (this is the intended spelling)
+* `end_point_description`
 
 ### 5) Refactor fields (Points)
 
