@@ -65,7 +65,7 @@ This model has the following features:
    * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
    * Create a folder called `GeoPackage` in your project directory and then copy `GPSGeoPackage.gpkg` file to this folder.
 
-3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. Set your `@project_home` here: Project -> Properties -> General
+3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in its own folder. Set your `@project_home` here: Project -> Properties -> General
 
 ## How to Use
 
