@@ -59,11 +59,11 @@ This model has the following features:
 1. Download the lastest released version. It contains 3 main components:
    * `Import and Process GPS KML or KMZ.model3` - The **Process Model** that you will run within QGIS
    * `ExtractPhotosFromKMZ.py` - A Python Script that exports your photos from the KMZ file. You don't need to run this alone, it gets called by the **Process Model**
-   * `GaiaGPS GeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
+   * `GPSGeoPackage.gpkg` - Lines and Points table templates inside a GeoPackage that is populated by the **Process Model**
 2. Place the following files in the described locations:
    * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
    * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
-   * Copy `GaiaGPS GeoPackage.gpkg` to your project directory
+   * Create a folder called `GeoPackage` in your proejct directory and then copy `GPSGeoPackage.gpkg` to this folder.
 
 3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. Set your `@project_home` here: Project -> Properties -> General
 
