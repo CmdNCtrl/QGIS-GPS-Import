@@ -63,9 +63,9 @@ This model has the following features:
 2. Place the following files in the described locations:
    * Copy `Import and Process GPS KML or KMZ.model3` to your process model directory.  Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Models 
    * Copy `ExtractPhotosFromKMZ.py` to your QGIS scripts directory Check here to find what yours is set to: Processing -> Toolbox -> Options -> Processing -> Scripts 
-   * Create a folder called `GeoPackage` in your proejct directory and then copy `GPSGeoPackage.gpkg` to this folder.
+   * Create a folder called `GeoPackage` in your project directory and then copy `GPSGeoPackage.gpkg` file to this folder.
 
-3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in it's over folder. Set your `@project_home` here: Project -> Properties -> General
+3. This model relies on `@project_home` (your QGIS Project Home path). Set the project home to the folder that contains your QGIS project file. The script creates a `/photos` folder in this locaton so it is recommend that your put your project file in its own folder. Set your `@project_home` here: Project -> Properties -> General
 
 ## How to Use
 
@@ -74,8 +74,9 @@ This model has the following features:
 3. At the bottom of the **Processing Toolbox** frame, you will see a section called **Models**
 4. Expand **Models** and you should see the model called **Import and Process GPS KML or KMZ**
 5. Select **Import and Process GPS KML or KMZ**, right click and select **Execute...**
-6. Select the KMZ file that you extracted from GaiaGPS in step one and click **Run**
-7. All your data should be loaded to to the tables. **Waypoints** will be loaded to the table **GPS_Points** and **Tracks** will be loaded to the table **GPS_Tracks**.
+6. The **Name and Path of GeoPackage**, **Name of GPS_Lines Table** and **Name of GPS_Points Table** will be prepopulated.  If you followe the installation instructions, you will not need to change them.  
+7. Select the KMZ file that you extracted from GaiaGPS in step one and click **Run**
+8. All your data should be loaded to to the tables. **Waypoints** will be loaded to the table **GPS_Points** and **Tracks** will be loaded to the table **GPS_Tracks**.
 
 ### Photos Associated with your Waypoints
 
