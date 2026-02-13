@@ -10,16 +10,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="1144.1666666666665" type="double"/>
-        <Option name="component_pos_y" value="943.612950058072" type="double"/>
+        <Option name="component_pos_x" value="1512.1666666666665" type="double"/>
+        <Option name="component_pos_y" value="927.612950058072" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Append features to final table - Points" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="1348" type="double"/>
-      <Option name="component_pos_y" value="889.5296167247386" type="double"/>
+      <Option name="component_pos_x" value="1716" type="double"/>
+      <Option name="component_pos_y" value="873.5296167247386" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="etl_load:appendfeaturestolayer_1" type="QString"/>
@@ -54,7 +54,7 @@
         </Option>
         <Option name="TARGET_LAYER" type="List">
           <Option type="Map">
-            <Option name="expression" value="@project_home||  @gpsgeopackage_name ||@gps_points_table" type="QString"/>
+            <Option name="expression" value="@project_home||  @name_and_path_of_geopackage_default ||@name_of_the_gps_points_table" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -69,16 +69,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/27/26 - Use the Append Features to Layer plug in to append the new points to the GPS_Points table.  " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="1614.75" type="double"/>
-        <Option name="component_pos_y" value="695.5833333333333" type="double"/>
+        <Option name="component_pos_x" value="1982.75" type="double"/>
+        <Option name="component_pos_y" value="679.5833333333333" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Append features to final table - Lines" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="1616" type="double"/>
-      <Option name="component_pos_y" value="815.6666666666667" type="double"/>
+      <Option name="component_pos_x" value="1984" type="double"/>
+      <Option name="component_pos_y" value="799.6666666666667" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="etl_load:appendfeaturestolayer_2" type="QString"/>
@@ -113,7 +113,7 @@
         </Option>
         <Option name="TARGET_LAYER" type="List">
           <Option type="Map">
-            <Option name="expression" value="@project_home||  @gpsgeopackage_name ||@gps_lines_table" type="QString"/>
+            <Option name="expression" value="@project_home||  @name_and_path_of_geopackage_default ||@name_of_gps_lines_table_default" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -128,16 +128,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/25/26 - Use the KML Tools plug in to import the the KML/KMZ data.  Split into a line layer and a point layer. " type="QString"/>
         <Option name="component_height" value="57.33333333333333" type="double"/>
-        <Option name="component_pos_x" value="348.9035979423868" type="double"/>
-        <Option name="component_pos_y" value="100.74800123456788" type="double"/>
+        <Option name="component_pos_x" value="716.9035979423868" type="double"/>
+        <Option name="component_pos_y" value="84.74800123456788" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Import KML/KMZ" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="342.95838959148847" type="double"/>
-      <Option name="component_pos_y" value="216.09043010711054" type="double"/>
+      <Option name="component_pos_x" value="710.9583895914885" type="double"/>
+      <Option name="component_pos_y" value="200.09043010711054" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="kmltools:importkml_1" type="QString"/>
@@ -162,16 +162,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/21/26 - This expression generates a date/timestamp that is used in the points and line layer as unique id of the runtime of the processing model.  " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="121.60873983739839" type="double"/>
-        <Option name="component_pos_y" value="417.48765969802537" type="double"/>
+        <Option name="component_pos_x" value="681.6087398373984" type="double"/>
+        <Option name="component_pos_y" value="284.15432636469205" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Calculate expression Set Runtime" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="122.16666666666674" type="double"/>
-      <Option name="component_pos_y" value="302.9166666666665" type="double"/>
+      <Option name="component_pos_x" value="698.1666666666667" type="double"/>
+      <Option name="component_pos_y" value="366.9166666666665" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:calculateexpression_1" type="QString"/>
@@ -195,17 +195,17 @@
       <Option name="comment" type="Map">
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="2/6/26 - Create a /photos directory to contain photos associated with points. " type="QString"/>
-        <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="188" type="double"/>
-        <Option name="component_pos_y" value="909.8629500580719" type="double"/>
+        <Option name="component_height" value="44" type="double"/>
+        <Option name="component_pos_x" value="558.6666666666667" type="double"/>
+        <Option name="component_pos_y" value="899.1962833914051" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Create directory" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="188" type="double"/>
-      <Option name="component_pos_y" value="1028.1962833914054" type="double"/>
+      <Option name="component_pos_x" value="556" type="double"/>
+      <Option name="component_pos_y" value="1012.1962833914054" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:createdirectory_1" type="QString"/>
@@ -230,16 +230,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="This step isolates the (End) points so that we can join them with the lines and then use the end point descrption to update the Line description" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="591.2263356562135" type="double"/>
-        <Option name="component_pos_y" value="89.72996515679438" type="double"/>
+        <Option name="component_pos_x" value="959.2263356562133" type="double"/>
+        <Option name="component_pos_y" value="73.72996515679438" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Extract by expression" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="592.2498548199766" type="double"/>
-      <Option name="component_pos_y" value="182.576800232288" type="double"/>
+      <Option name="component_pos_x" value="960.2498548199766" type="double"/>
+      <Option name="component_pos_y" value="166.576800232288" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:extractbyexpression_1" type="QString"/>
@@ -271,16 +271,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/30/26 - Changed the order so that the invalid lines are dropped first before the join is done.  Before I did this, the join would also show that rows needed to be appended when they just got dropped by this step.  &#xa;&#xa;1/29/26 - Some lines had zero length and therefore interpreted as points.   This is probably corrputed data.  Used an expression to drop lines that have 0 length.  " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="1234.6666666666665" type="double"/>
-        <Option name="component_pos_y" value="515.1962833914055" type="double"/>
+        <Option name="component_pos_x" value="1602.6666666666665" type="double"/>
+        <Option name="component_pos_y" value="499.1962833914055" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Drop lines with zero length" type="QString"/>
       <Option name="component_height" value="36.66666666666674" type="double"/>
-      <Option name="component_pos_x" value="1150.6666666666667" type="double"/>
-      <Option name="component_pos_y" value="623.5296167247387" type="double"/>
+      <Option name="component_pos_x" value="1518.666666666667" type="double"/>
+      <Option name="component_pos_y" value="607.5296167247387" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:extractbyexpression_2" type="QString"/>
@@ -312,16 +312,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="637.3124274099882" type="double"/>
-        <Option name="component_pos_y" value="784.5296167247386" type="double"/>
+        <Option name="component_pos_x" value="1005.3124274099881" type="double"/>
+        <Option name="component_pos_y" value="768.5296167247386" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Add match_key to points" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="794.5624274099881" type="double"/>
-      <Option name="component_pos_y" value="668.1962833914052" type="double"/>
+      <Option name="component_pos_x" value="1162.5624274099882" type="double"/>
+      <Option name="component_pos_y" value="652.1962833914052" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:fieldcalculator_1" type="QString"/>
@@ -368,7 +368,7 @@
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home ||  @gpsgeopackage_name  ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'" type="QString"/>
+            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home ||  @name_and_path_of_geopackage_default  ||&#xa;''' table=&quot;GPS_Points_Temp&quot; (geom)'" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -383,16 +383,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/27/25 - Add a key (match_key) to the table that can be used to determine if these records are new and should be inserted or not.  The key is:  Source | Folders | Name.  &#xa;&#xa;Evaluating an Issue that may need to be resolved here:&#xa;&#xa;&#xa;https://github.com/CmdNCtrl/QGIS-GPS-Import/issues/1" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="1107.3333333333335" type="double"/>
-        <Option name="component_pos_y" value="425.33333333333326" type="double"/>
+        <Option name="component_pos_x" value="1475.3333333333335" type="double"/>
+        <Option name="component_pos_y" value="409.33333333333326" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Add match_key to lines" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="1042.2319878129717" type="double"/>
-      <Option name="component_pos_y" value="519.5570878708414" type="double"/>
+      <Option name="component_pos_x" value="1410.231987812972" type="double"/>
+      <Option name="component_pos_y" value="503.5570878708414" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:fieldcalculator_2" type="QString"/>
@@ -439,7 +439,7 @@
         </Option>
         <Option name="OUTPUT" type="List">
           <Option type="Map">
-            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home ||  @gpsgeopackage_name  ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'" type="QString"/>
+            <Option name="expression" value="'ogr:dbname=''' ||&#xa;@project_home ||  @name_and_path_of_geopackage_default  ||&#xa;''' table=&quot;GPS_Lines_Temp&quot; (geom)'" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -454,16 +454,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/25/26 - Join the lines with the isolated &quot;(End)&quot; points in order to copy the End point description to the lines. " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="751.9999999999999" type="double"/>
-        <Option name="component_pos_y" value="231" type="double"/>
+        <Option name="component_pos_x" value="1120" type="double"/>
+        <Option name="component_pos_y" value="215" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Join attributes by field value" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="743.7002032520325" type="double"/>
-      <Option name="component_pos_y" value="305.4322009291521" type="double"/>
+      <Option name="component_pos_x" value="1111.7002032520327" type="double"/>
+      <Option name="component_pos_y" value="289.43220092915215" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:joinattributestable_1" type="QString"/>
@@ -534,16 +534,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/30/26 - Create new layer with just the new features that need to be appended.  Previously used the match_key, but changed to use recorded date. &#xa;&#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="893.9971060184678" type="double"/>
-        <Option name="component_pos_y" value="907.891811957158" type="double"/>
+        <Option name="component_pos_x" value="1261.997106018468" type="double"/>
+        <Option name="component_pos_y" value="891.891811957158" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Find which features exist already - Points" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="1052.8986544796383" type="double"/>
-      <Option name="component_pos_y" value="805.5296167247387" type="double"/>
+      <Option name="component_pos_x" value="1420.8986544796385" type="double"/>
+      <Option name="component_pos_y" value="789.5296167247387" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:joinattributestable_2" type="QString"/>
@@ -586,7 +586,7 @@
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="expression" value="@project_home||  @gpsgeopackage_name ||@gps_points_table" type="QString"/>
+            <Option name="expression" value="@project_home||  @name_and_path_of_geopackage_default ||@name_of_the_gps_points_table" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -613,16 +613,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/30/26 - Create new layer with just the new features that need to be appended.  Previously used the match_key, but changed to use recorded date. &#xa;&#xa;&#xa;&#xa;1/24/25 - This bug prevents you from outputting the unjoined results to a temporary layer.  The will output successfully if you out put them to a GeoPackage:&#xa;https://github.com/qgis/QGIS/issues/39754" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="1369.0984515388293" type="double"/>
-        <Option name="component_pos_y" value="637.5288618990859" type="double"/>
+        <Option name="component_pos_x" value="1737.0984515388295" type="double"/>
+        <Option name="component_pos_y" value="621.5288618990859" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Find which features exist already - Lines" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="1298.6666666666665" type="double"/>
-      <Option name="component_pos_y" value="723.6666666666665" type="double"/>
+      <Option name="component_pos_x" value="1666.6666666666665" type="double"/>
+      <Option name="component_pos_y" value="707.6666666666665" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="native:joinattributestable_3" type="QString"/>
@@ -665,7 +665,7 @@
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="expression" value="@project_home||  @gpsgeopackage_name ||@gps_lines_table" type="QString"/>
+            <Option name="expression" value="@project_home||  @name_and_path_of_geopackage_default ||@name_of_gps_lines_table_default" type="QString"/>
             <Option name="source" value="3" type="int"/>
           </Option>
         </Option>
@@ -692,16 +692,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/27/26 - Extract data from description, set the runtime date and populate the source field" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="940.3905936968908" type="double"/>
-        <Option name="component_pos_y" value="257.03599222852176" type="double"/>
+        <Option name="component_pos_x" value="1308.3905936968908" type="double"/>
+        <Option name="component_pos_y" value="241.03599222852176" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Refactor fields  Refactor Lines  Populate Fields" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="918.5624274099883" type="double"/>
-      <Option name="component_pos_y" value="410.7662601626014" type="double"/>
+      <Option name="component_pos_x" value="1286.5624274099882" type="double"/>
+      <Option name="component_pos_y" value="394.7662601626014" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -827,16 +827,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="1/21/25 - &#xa;&#xa;Extract recorded date from Description: populate the recorded field, however, the (Start), (End) and points each have a different way to mark the start in the description field.  Created an expression that handles all three cases and populates the recorded field.&#xa;Load &quot;imported_at&quot; date/time field using the Cacluate Expression to set the date/time for all records imported.&#xa;" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="406.04224738675947" type="double"/>
-        <Option name="component_pos_y" value="602.706300813008" type="double"/>
+        <Option name="component_pos_x" value="774.0422473867594" type="double"/>
+        <Option name="component_pos_y" value="586.706300813008" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Refactor fields  Points  Populate fields" type="QString"/>
       <Option name="component_height" value="36.659117305458835" type="double"/>
-      <Option name="component_pos_x" value="635.5553135888501" type="double"/>
-      <Option name="component_pos_y" value="509.5296167247386" type="double"/>
+      <Option name="component_pos_x" value="1003.5553135888503" type="double"/>
+      <Option name="component_pos_y" value="493.5296167247386" type="double"/>
       <Option name="component_width" value="200" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -951,16 +951,16 @@
         <Option name="color" value="" type="QString"/>
         <Option name="component_description" value="2/6/26 - Execute a Python script that extracts photos from the selected KMZ file and loads them to a \photos directory located in the Project Home folder.  (@project_home)" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="465.3333333333335" type="double"/>
-        <Option name="component_pos_y" value="1008.3333333333334" type="double"/>
+        <Option name="component_pos_x" value="833.3333333333334" type="double"/>
+        <Option name="component_pos_y" value="992.3333333333334" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
       <Option name="component_description" value="Extract KMZ photos" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="471.9999999999999" type="double"/>
-      <Option name="component_pos_y" value="1120" type="double"/>
+      <Option name="component_pos_x" value="839.9999999999999" type="double"/>
+      <Option name="component_pos_y" value="1104" type="double"/>
       <Option name="component_width" value="186.66666666666674" type="double"/>
       <Option name="dependencies"/>
       <Option name="id" value="script:extract_kmz_photos_2" type="QString"/>
@@ -1008,37 +1008,37 @@
   <Option name="outputGroup" value="" type="QString"/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
-    <Option name="gps_lines_table" type="Map">
-      <Option name="default" value="|layername=GPS_Lines" type="QString"/>
-      <Option name="defaultGui" type="invalid"/>
-      <Option name="description" value="GPS_Lines_Table" type="QString"/>
-      <Option name="flags" value="0" type="int"/>
-      <Option name="help" value="" type="QString"/>
-      <Option name="metadata"/>
-      <Option name="multiline" value="false" type="bool"/>
-      <Option name="name" value="gps_lines_table" type="QString"/>
-      <Option name="parameter_type" value="string" type="QString"/>
-    </Option>
-    <Option name="gps_points_table" type="Map">
-      <Option name="default" value="|layername=GPS_Points" type="QString"/>
-      <Option name="defaultGui" type="invalid"/>
-      <Option name="description" value="GPS_Points_Table" type="QString"/>
-      <Option name="flags" value="0" type="int"/>
-      <Option name="help" value="" type="QString"/>
-      <Option name="metadata"/>
-      <Option name="multiline" value="false" type="bool"/>
-      <Option name="name" value="gps_points_table" type="QString"/>
-      <Option name="parameter_type" value="string" type="QString"/>
-    </Option>
-    <Option name="gpsgeopackage_name" type="Map">
+    <Option name="name_and_path_of_geopackage_default" type="Map">
       <Option name="default" value="/GeoPackage/GPSGeoPackage.gpkg" type="QString"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" value="GPSGeoPackage_Name" type="QString"/>
+      <Option name="description" value="Name and Path of GeoPackage (Default)" type="QString"/>
       <Option name="flags" value="0" type="int"/>
       <Option name="help" value="" type="QString"/>
       <Option name="metadata"/>
       <Option name="multiline" value="false" type="bool"/>
-      <Option name="name" value="gpsgeopackage_name" type="QString"/>
+      <Option name="name" value="name_and_path_of_geopackage_default" type="QString"/>
+      <Option name="parameter_type" value="string" type="QString"/>
+    </Option>
+    <Option name="name_of_gps_lines_table_default" type="Map">
+      <Option name="default" value="|layername=GPS_Lines" type="QString"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Name of GPS_Lines Table (Default)" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="multiline" value="false" type="bool"/>
+      <Option name="name" value="name_of_gps_lines_table_default" type="QString"/>
+      <Option name="parameter_type" value="string" type="QString"/>
+    </Option>
+    <Option name="name_of_the_gps_points_table" type="Map">
+      <Option name="default" value="|layername=GPS_Points" type="QString"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Name of the GPS_Points Table" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="multiline" value="false" type="bool"/>
+      <Option name="name" value="name_of_the_gps_points_table" type="QString"/>
       <Option name="parameter_type" value="string" type="QString"/>
     </Option>
     <Option name="select_kml_or_kmz_file" type="Map">
@@ -1057,66 +1057,66 @@
   </Option>
   <Option name="parameterOrder"/>
   <Option name="parameters" type="Map">
-    <Option name="gps_lines_table" type="Map">
+    <Option name="name_and_path_of_geopackage_default" type="Map">
       <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
         <Option name="color" value="" type="QString"/>
-        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_description" value="2/13/26 - Variable holding the name and path of the GeoPackage" type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="562.2163279835391" type="double"/>
-        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_pos_x" value="123.86838847736618" type="double"/>
+        <Option name="component_pos_y" value="174.99999999999997" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" value="gps_lines_table" type="QString"/>
+      <Option name="component_description" value="name_and_path_of_geopackage_default" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="143.5496613168725" type="double"/>
-      <Option name="component_pos_y" value="690.6666666666666" type="double"/>
+      <Option name="component_pos_x" value="127.54966131687246" type="double"/>
+      <Option name="component_pos_y" value="259.97171028806576" type="double"/>
       <Option name="component_width" value="200" type="double"/>
-      <Option name="name" value="gps_lines_table" type="QString"/>
+      <Option name="name" value="name_and_path_of_geopackage_default" type="QString"/>
       <Option name="outputs_collapsed" value="true" type="bool"/>
       <Option name="parameters_collapsed" value="true" type="bool"/>
     </Option>
-    <Option name="gps_points_table" type="Map">
+    <Option name="name_of_gps_lines_table_default" type="Map">
       <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
         <Option name="color" value="" type="QString"/>
-        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_description" value="2/13/26 - Initialize the name of the GPS_Line variable. " type="QString"/>
         <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="565.1546740740741" type="double"/>
-        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_pos_x" value="127.54966131687243" type="double"/>
+        <Option name="component_pos_y" value="423.00000000000006" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" value="gps_points_table" type="QString"/>
+      <Option name="component_description" value="name_of_gps_lines_table_default" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="145.20172181069958" type="double"/>
-      <Option name="component_pos_y" value="760.6289979423867" type="double"/>
+      <Option name="component_pos_x" value="135.54966131687246" type="double"/>
+      <Option name="component_pos_y" value="499.3333333333333" type="double"/>
       <Option name="component_width" value="200" type="double"/>
-      <Option name="name" value="gps_points_table" type="QString"/>
+      <Option name="name" value="name_of_gps_lines_table_default" type="QString"/>
       <Option name="outputs_collapsed" value="true" type="bool"/>
       <Option name="parameters_collapsed" value="true" type="bool"/>
     </Option>
-    <Option name="gpsgeopackage_name" type="Map">
+    <Option name="name_of_the_gps_points_table" type="Map">
       <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
         <Option name="color" value="" type="QString"/>
-        <Option name="component_description" value="" type="QString"/>
-        <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="558.5350551440329" type="double"/>
-        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_description" value="2/13/26 - Initialize the names of the GPS_Points table" type="QString"/>
+        <Option name="component_height" value="44" type="double"/>
+        <Option name="component_pos_x" value="135.8213407407409" type="double"/>
+        <Option name="component_pos_y" value="624.3333333333333" type="double"/>
         <Option name="component_width" value="100" type="double"/>
         <Option name="outputs_collapsed" value="true" type="bool"/>
         <Option name="parameters_collapsed" value="true" type="bool"/>
       </Option>
-      <Option name="component_description" value="gpsgeopackage_name" type="QString"/>
+      <Option name="component_description" value="name_of_the_gps_points_table" type="QString"/>
       <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="142.21632798353912" type="double"/>
-      <Option name="component_pos_y" value="613.3050436213991" type="double"/>
+      <Option name="component_pos_x" value="135.86838847736624" type="double"/>
+      <Option name="component_pos_y" value="700.6289979423866" type="double"/>
       <Option name="component_width" value="200" type="double"/>
-      <Option name="name" value="gpsgeopackage_name" type="QString"/>
+      <Option name="name" value="name_of_the_gps_points_table" type="QString"/>
       <Option name="outputs_collapsed" value="true" type="bool"/>
       <Option name="parameters_collapsed" value="true" type="bool"/>
     </Option>
