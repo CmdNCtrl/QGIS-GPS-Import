@@ -97,9 +97,11 @@ Your photos will appear in field called `description_html`.  For them to appear 
 
 <img width="1071" height="797" alt="Screenshot 2026-02-07 at 10 24 40 AM" src="https://github.com/user-attachments/assets/b081b4e3-bb83-495d-9420-aaedc3383a83" />
 
-This **Process Model** writes the path to your photos in the `description_html` field.  If you move your project folder, it will break the link.  Future releaseas might have an option to update the path if you move the project.  
+This Process Model writes the path to your photos in the `description_html` field.  If you move your project folder, it will break the link.  Future releaseas might have an option to update the path if you move the project.  
+
 ---
 ## Future Enhancement Ideas
+
 Below are some ideas for future enhancements.  Let me know if you have other ideas!
  * Extract other fields from GaiaGPS description field including, average speed, elevation gain, etc.
  * Add an update feature that will update existing records based on changes in GaiaGPS
@@ -107,6 +109,7 @@ Below are some ideas for future enhancements.  Let me know if you have other ide
  * Add support for other sources including CoMaps
 
 ## What the Model Does (Step-by-step)
+
 It is not necessary for you to understand this section in order to use this tool, it is only provided if you have interest in how this works.  
 
 ### 1) Import the KML/KMZ
