@@ -23,6 +23,7 @@ This model has the following features:
     * Recorded On
     * Imported At (Set to the time/date import was run in UTC)
     * Source (GaiaGPS)
+    * Photo (Calculated field that displays `1` if a photo reference is present in the descrption field, `0` if not.  Useful in **Symbology** settings to display a particular icon indicating a photo is present.) 
     * Geometry
 
 * Checks to see if the **tracks** and **waypoints** already exist in the above mentioned tables based on the recorded date/time and drops any duplicates. The benefit of this is if you do periodic export of GaiGPS into QGIS, you don't necessarily need to remember if you already imported a specific **track** or **waypoint**.  The tool will check to see if they are already there and will only load the new records.  
